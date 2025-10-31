@@ -24,4 +24,17 @@ This project builds a comprehensive **Bank Loan Report** with three dashboard pa
 ## Dataset Used
 - <a href="https://github.com/mrsiddhu1916/Data-Analysis-Dashboard/blob/main/financial_loan_DataSet.csv" >Dataset</a>
 
+**Data cleaning done (example):**  
+- Converted `issue_date` to date type and extracted month/year.  
+- Filled or removed nulls in `funded_amount`, `amount_received`, `interest_rate`.  
+- Standardized categories for `purpose`, `home_ownership`, and `loan_status`.  
+- Derived `MTD` flags, `month` and `year` for trend analysis.
+## Tools & Technologies
+- **Power BI Desktop** (PBIX) — primary dashboard file  
+- **Excel** — quick checks / small transformations  
+- **Python (pandas)** — optional preprocessing and KPI calculation  
+- **SQL** —  data comes from a database
+
+
+
 
