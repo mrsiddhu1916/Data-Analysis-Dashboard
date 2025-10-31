@@ -35,6 +35,26 @@ This project builds a comprehensive **Bank Loan Report** with three dashboard pa
 - **Python (pandas)** — optional preprocessing and KPI calculation  
 - **SQL** —  data comes from a database
 
+  ## Methodology (short)
+1. **Ingest** raw loan dataset.  
+2. **Clean** and standardize fields (dates, categories, nulls).  
+3. **Calculate KPIs** (Total Applications, Funded, Received, MTD, MoM, Avg Interest, Avg DTI, Good/Bad split).  
+4. **Visualize**: Overview (trend + map + donut + bar + treemap), Summary (KPIs + quality rings + table), Details (grid with transactional rows).  
+5. **Interpret** insights and recommend actions.
+---
+   ## KPI calculations / reproducible formulas
+- **Total Loan Applications** = `COUNT(application_id)`  
+- **Total Funded Amount** = `SUM(funded_amount)`  
+- **Total Amount Received** = `SUM(amount_received)`  
+- **MTD Funded Amount** = `SUM(funded_amount WHERE issue_month = current_month)`  
+- **Average Interest Rate** = `AVG(interest_rate)` or weighted: `SUM(interest_rate * funded_amount) / SUM(funded_amount)`  
+- **Average DTI** = `AVG(dti)` (or weighted by funded amount)  
+- **Good Loan %** = `COUNT(IF loan_status IN ('Fully Paid','Current')) / COUNT(*) * 100`  
+- **Bad Loan %** = `COUNT(IF loan_status = 'Charged Off') / COUNT(*) * 100`
+
+---
+
+
 
 
 
