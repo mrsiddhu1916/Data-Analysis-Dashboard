@@ -1,2 +1,7 @@
-# Data-Analysis-Dashboard
-The Bank Loan Report is a comprehensive data analysis project built in Power BI to evaluate loan portfolio performance. It visualizes key KPIs, distinguishes good vs. bad loans, and uncovers insights on borrower trends, regional patterns, and financial health for strategic decision-making.
+# Financial Bank Loan Data-Analysis  (Interactive Dashboard Using Power Bi)
+
+## Interactive dashboards and analysis to monitor loan portfolio KPIs, identify risk pockets, and drive data-backed lending decisions.
+
+## Project Summary
+This project builds a comprehensive **Bank Loan Report** with three dashboard pages: **Summary**, **Overview**, and **Details**. The dashboards visualize key lending metrics, monthly trends, geographic distribution, loan-term distribution, loan-purpose breakdown, employment-length impact, home-ownership analysis, and a detailed grid for transactional review. The goal is to monitor portfolio health, identify risk pockets, and recommend data-driven actions.
+
