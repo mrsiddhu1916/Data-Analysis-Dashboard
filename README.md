@@ -75,7 +75,7 @@ This project builds a comprehensive **Bank Loan Report** with three dashboard pa
 - Dashboard Interactive <a href="https://github.com/mrsiddhu1916/Data-Analysis-Dashboard/blob/main/bank%20loan%20dashboard.pbix">View Dashboard<a/a>
 
 - ## Author / Contact
-**Siddu Kamepali**  
+**Siddardha Kamepali**  
 LinkedIn: https://www.linkedin.com/in/siddardh-kamepalli-563420355
  
 
