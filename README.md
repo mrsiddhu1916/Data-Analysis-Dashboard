@@ -72,8 +72,12 @@ This project builds a comprehensive **Bank Loan Report** with three dashboard pa
 5. **Regional diversification:** expand into under-served states to reduce concentration risk.  
 6. **Monitoring & alerts:** automate alerts for sudden MoM KPI changes (funded amount, DTI, charged-offs).
 
-- Dashboard Interactive <a href="https://github.com/mrsiddhu1916/Data-Analysis-Dashboard/blob/main/bank%20loan%20dashboard.pbix">View Dashboard<a/A>
-- 
+- Dashboard Interactive <a href="https://github.com/mrsiddhu1916/Data-Analysis-Dashboard/blob/main/bank%20loan%20dashboard.pbix">View Dashboard<a/a>
+
+- ## Author / Contact
+**Siddu Kamepali**  
+LinkedIn: https://www.linkedin.com/in/siddardh-kamepalli-563420355
+ 
 
 
 
