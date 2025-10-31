@@ -53,6 +53,25 @@ This project builds a comprehensive **Bank Loan Report** with three dashboard pa
 - **Bad Loan %** = `COUNT(IF loan_status = 'Charged Off') / COUNT(*) * 100`
 
 ---
+## Key findings / Insights 
+- **Growth trend:** Total funded amount and applications show steady month-over-month growth → business scaling and seasonality.  
+- **Geographic concentration:** Lending activity clusters in several states (map hotspots) → geographic dependency risk.  
+- **Product concentration:** Mortgage, debt consolidation and rent-related loans are the largest funded categories → product focus needed.  
+- **Term & tenure effects:** 36- and 60-month terms are dominant; longer employment length correlates with larger funded amounts → stable employment reduces risk.  
+- **Homeownership:** Mortgages/owned homes receive larger funded amounts → ownership correlates with loan size & potentially lower default.  
+- **Portfolio quality:** ~86% good loans vs ~14% bad loans — healthy overall but charged-off amounts require attention.  
+- **Cost & stress indicators:** Avg interest ~12% and avg DTI ~13% — useful for pricing and borrower stress monitoring.
+
+---
+
+## Business recommendations (data-driven)
+1. **Tighten underwriting** for borrowers with high DTI, short employment length, and specific high-charge-off purposes.  
+2. **Collections priority:** target top charged-off loan amounts for recovery.  
+3. **Product focus & marketing:** grow mortgage and debt-consolidation products in top-performing states.  
+4. **Adjust pricing/terms** for higher-risk segments or require additional collateral/documentation.  
+5. **Regional diversification:** expand into under-served states to reduce concentration risk.  
+6. **Monitoring & alerts:** automate alerts for sudden MoM KPI changes (funded amount, DTI, charged-offs).
+
 
 
 
